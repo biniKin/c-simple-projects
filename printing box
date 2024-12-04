@@ -1,0 +1,97 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    for(int i = 0; i < 10; i++){
+        switch(i){
+            case 1: for(int j = 10; j > 0; j--){
+                cout << "*";
+            }
+            cout << endl;
+            break;
+            case 2: for(int j = 1; j > 0; j--){
+                cout << "*";
+            }
+            for(int space = 9; space > 0; space --){
+                cout << " ";
+                if (space == 2){
+                    cout << "*";
+                }
+            }
+            cout << endl;
+            break;
+            case 3: for(int j = 1; j > 0; j--){
+                cout << "*";
+            }
+            for(int space = 9; space > 0; space --){
+                cout << " ";
+                if (space == 2){
+                    cout << "*";
+                }
+            }
+            cout << endl;
+            break;
+            case 4: for(int j = 1; j > 0; j--){
+                cout << "*";
+            }
+            for(int space = 9; space > 0; space --){
+                cout << " ";
+                if (space == 2){
+                    cout << "*";
+                }
+            }
+            cout << endl;
+            break;
+            case 5: for(int j = 1; j > 0; j--){
+                cout << "*";
+            }
+            for(int space = 9; space > 0; space --){
+                cout << " ";
+                if (space == 2){
+                    cout << "*";
+                }
+            }
+            cout << endl;
+            break;
+            case 6: for(int j = 1; j > 0; j--){
+                cout << "*";
+            }
+            for(int space = 9; space > 0; space --){
+                cout << " ";
+                if (space == 2){
+                    cout << "*";
+                }
+            }
+            cout << endl;
+            break;
+            case 7: for(int j = 1; j > 0; j--){
+                cout << "*";
+            }
+            for(int space = 9; space > 0; space --){
+                cout << " ";
+                if (space == 2){
+                    cout << "*";
+                }
+            }
+            cout << endl;
+            break;
+            case 8: for(int j = 1; j > 0; j--){
+                cout << "*";
+            }
+            for(int space = 9; space > 0; space --){
+                cout << " ";
+                if (space == 2){
+                    cout << "*";
+                }
+            }
+            cout << endl;
+            break;
+            case 9: for(int j = 10; j > 0; j--){
+                cout << "*";
+            }
+           
+            cout << endl;
+            break;
+        }
+    }
+}
