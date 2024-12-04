@@ -1,0 +1,147 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    for(int i = 0; i <= 10; i++){
+        switch(i){
+            case 0: for(int space= 4; space > 0; space --){
+                cout << " ";
+            }
+            for (int i = 3; i > 0; i--){
+                cout << "*";
+            }
+            for(int space= 4; space > 0; space --){
+                cout << " ";
+            }
+            cout << endl;
+            break;
+            case 1: for(int space= 2; space > 0; space --){
+                cout << " ";
+            }
+            for (int i = 1; i > 0; i--){
+                cout << "*";
+            }
+            for (int space= 5; space > 0; space --){
+                cout << " ";
+            }
+            for (int i = 1; i > 0; i--){
+                cout << "*";}
+            cout << endl;
+            break;
+            case 2: for(int space= 1; space > 0; space --){
+                cout << " ";
+            }
+            for (int i = 1; i > 0; i--){
+                cout << "*";
+            }
+            for (int space= 7; space > 0; space --){
+                cout << " ";
+            }
+            for (int i = 1; i > 0; i--){
+                cout << "*";
+            }
+            cout << endl;
+            break;
+            case 3:
+            for (int i = 1; i > 0; i--){
+                cout << "*";
+            }
+            for (int space= 9; space > 0; space --){
+                cout << " ";
+            }
+            for (int i = 1; i > 0; i--){
+                cout << "*";
+            }
+            cout << endl;
+            break;
+            case 4:
+            for (int i = 1; i > 0; i--){
+                cout << "*";
+            }
+            for (int space= 9; space > 0; space --){
+                cout << " ";
+            }
+            for (int i = 1; i > 0; i--){
+                cout << "*";
+            }
+            cout << endl;
+            break;
+            case 5:
+            for (int i = 1; i > 0; i--){
+                cout << "*";
+            }
+            for (int space= 9; space > 0; space --){
+                cout << " ";
+            }
+            for (int i = 1; i > 0; i--){
+                cout << "*";
+            }
+            cout << endl;
+            break;
+            case 6:
+            for (int i = 1; i > 0; i--){
+                cout << "*";
+            }
+            for (int space= 9; space > 0; space --){
+                cout << " ";
+            }
+            for (int i = 1; i > 0; i--){
+                cout << "*";
+            }
+            cout << endl;
+            break;
+            case 7:
+            for (int i = 1; i > 0; i--){
+                cout << "*";
+            }
+            for (int space= 9; space > 0; space --){
+                cout << " ";
+            }
+            for (int i = 1; i > 0; i--){
+                cout << "*";
+            }
+            cout << endl;
+            break;
+            case 8: for(int space= 1; space > 0; space --){
+                cout << " ";
+            }
+            for (int i = 1; i > 0; i--){
+                cout << "*";
+            }
+            for (int space= 7; space > 0; space --){
+                cout << " ";
+            }
+            for (int i = 1; i > 0; i--){
+                cout << "*";
+            }
+            cout << endl;
+            break;
+            case 9: for(int space= 2; space > 0; space --){
+                cout << " ";
+            }
+            for (int i = 1; i > 0; i--){
+                cout << "*";
+            }
+            for (int space= 5; space > 0; space --){
+                cout << " ";
+            }
+            for (int i = 1; i > 0; i--){
+                cout << "*";}
+            cout << endl;
+            break;
+            case 10: for(int space= 4; space > 0; space --){
+                cout << " ";
+            }
+            for (int i = 3; i > 0; i--){
+                cout << "*";
+            }
+            for(int space= 4; space > 0; space --){
+                cout << " ";
+            }
+            cout << endl;
+            break;
+            
+        }
+    }
+}
+
